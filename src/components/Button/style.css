@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #313030;
+  background: #dee4ed;
+  box-shadow: 0 4px 0 #b8bec7;
+  padding: 0.3rem 1rem;
+  font-variant: all-petite-caps;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  color: #2d2d2d;
+  box-shadow: none;
+  background: #dee4ed;
+  position: relative;
+  top: 5px;
+}

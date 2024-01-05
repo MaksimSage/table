@@ -1,0 +1,75 @@
+.tableWrap {
+  max-height: 280px;
+  height: 100%;
+  overflow-y: auto;
+}
+.table {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  border-spacing: 0;
+  border-bottom: 2px dashed #e4dddd;
+}
+.table thead th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background: #d8d8d8;
+  font-size: 14px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.table tbody td {
+  text-align: left;
+  border-left: 1px dashed #dddddd82;
+  padding: 10px 15px;
+  font-size: 14px;
+  vertical-align: center;
+  max-width: 85px;
+}
+
+.table thead tr th:first-child,
+.table tbody tr td:first-child {
+  border-left: none;
+}
+.table thead tr th:last-child,
+.table tbody tr td:last-child {
+  border-right: none;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+.table tbody tr:nth-child(even) .inputTable {
+  background-color: #f3f3f3;
+}
+.table tbody .activeRow:nth-child(even) .inputTable,
+.table tbody tr.activeRow,
+.activeRow .inputTable {
+  background-color: blanchedalmond;
+}
+
+.inputTable {
+  border: none;
+  border-bottom: 1px solid #9090b8;
+  padding-bottom: 0.3rem;
+  font-size: 14px;
+}
+.inputTable:focus-visible {
+  outline: none;
+}
+.title {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  border-bottom: 2px dashed #e4dddd;
+  margin: 0;
+  text-transform: uppercase;
+}
+.actionBlock {
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
